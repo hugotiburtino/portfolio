@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hugo Tiburtino - Full Stack Developer & DevOps Engineer Portfolio">
+    <title>Hugo Tiburtino | Full Stack Developer & DevOps Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">HT</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link" data-i18n="nav.home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-i18n="nav.about">About</a></li>
+                <li><a href="#skills" class="nav-link" data-i18n="nav.skills">Skills</a></li>
+                <li><a href="#projects" class="nav-link" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="en" title="English">EN</button>
+                <button class="lang-btn" data-lang="pt" title="Português">PT</button>
+                <button class="lang-btn" data-lang="de" title="Deutsch">DE</button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span data-i18n="hero.greeting">Hi, I'm</span> <span class="gradient-text">Hugo Tiburtino</span>
+                </h1>
+                <p class="hero-subtitle" data-i18n="hero.title">Full Stack Developer & DevOps Engineer</p>
+                <p class="hero-description" data-i18n="hero.description">
+                    Building scalable applications and automating infrastructure with modern technologies
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" data-i18n="hero.viewWork">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary" data-i18n="hero.getInTouch">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/hugotiburtino" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/hugo-tiburtino-14a03222a/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-img-wrapper">
+                        <img src="https://avatars.githubusercontent.com/u/45924645?v=4" alt="Hugo Tiburtino" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description" data-i18n="about.description1">
+                        I'm a passionate Full Stack Developer and DevOps Engineer with a strong focus on building 
+                        efficient, scalable applications and automating infrastructure. With over 517 contributions 
+                        in the last year, I'm constantly learning and improving my craft.
+                    </p>
+                    <p class="about-description" data-i18n="about.description2">
+                        I work with organizations like <strong>Serlo</strong> and <strong>edufeed-org</strong>, 
+                        contributing to various projects including kanban editors, onboarding tools, and infrastructure 
+                        management using Terraform and modern cloud technologies.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">517+</span>
+                            <span class="stat-label" data-i18n="about.contributions">Contributions</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">9+</span>
+                            <span class="stat-label" data-i18n="about.repositories">Repositories</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label" data-i18n="about.organizations">Organizations</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <pre class="code-content"><code>const developer = {
+    name: "Hugo Tiburtino",
+    role: "Full Stack Developer",
+    specialization: "DevOps Engineer",
+    passion: "Building & Automating",
+    motto: "Code. Build. Deploy. Repeat.",
+    
+    getInTouch() {
+        return "Let's collaborate!";
+    }
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="skills.title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 data-i18n="skills.frontend">Frontend Development</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Vue.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 data-i18n="skills.backend">Backend Development</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">REST API</span>
+                        <span class="skill-tag">GraphQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 data-i18n="skills.devops">DevOps & Cloud</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 data-i18n="skills.tools">Tools & Others</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Agile</span>
+                        <span class="skill-tag">TDD</span>
+                        <span class="skill-tag">Microservices</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projects.title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/serlo/infra" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Serlo Infrastructure</h3>
+                        <p data-i18n="projects.serlo.description">Terraform code for managing Serlo's cloud infrastructure with automated deployment and scaling capabilities.</p>
+                        <div class="project-tags">
+                            <span class="tag">Terraform</span>
+                            <span class="tag">DevOps</span>
+                            <span class="tag">Cloud</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/serlo/infra" target="_blank" class="project-btn">
+                                <i class="fab fa-github"></i> <span data-i18n="projects.viewCode">View Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/hugotiburtino/jankenpon" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Jankenpon</h3>
+                        <p data-i18n="projects.jankenpon.description">Rock Paper Scissors game implemented using Object-Oriented Programming principles in Python.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">OOP</span>
+                            <span class="tag">Game</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/hugotiburtino/jankenpon" target="_blank" class="project-btn">
+                                <i class="fab fa-github"></i> <span data-i18n="projects.viewCode">View Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/edufeed-org/kanban-editor" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Kanban Editor</h3>
+                        <p data-i18n="projects.kanban.description">Contributed to building a modern Kanban board editor for project management with drag-and-drop functionality.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/edufeed-org/kanban-editor" target="_blank" class="project-btn">
+                                <i class="fab fa-github"></i> <span data-i18n="projects.viewCode">View Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/edufeed-org/onboarding-tool" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Onboarding Tool</h3>
+                        <p data-i18n="projects.onboarding.description">Developed an onboarding tool to streamline the process of integrating new team members into projects.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Automation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/edufeed-org/onboarding-tool" target="_blank" class="project-btn">
+                                <i class="fab fa-github"></i> <span data-i18n="projects.viewCode">View Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <a href="https://github.com/hugotiburtino?tab=repositories" target="_blank" class="btn btn-primary" data-i18n="projects.viewAll">
+                    View All Projects on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">Get In Touch</h2>
+            <p class="section-subtitle" data-i18n="contact.subtitle">
+                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            </p>
+            <div class="contact-content-center">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-i18n="contact.email">Email</h3>
+                            <a href="mailto:hugo@tiburtino.org">hugo[at]tiburtino.org</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/hugo-tiburtino-14a03222a/" target="_blank">Hugo Tiburtino</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Hugo Tiburtino. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/hugotiburtino" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/hugo-tiburtino-14a03222a/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
