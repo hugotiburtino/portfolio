@@ -167,6 +167,12 @@ const translations = {
                 message: "Ihre Nachricht",
                 send: "Nachricht senden"
             }
+        }
+    }
+}
+
+let currentLang = (navigator.language || navigator.userLanguage).split("-")[0];
+
 // Function to get nested translation value
 function getTranslation(key, lang = currentLang) {
     const keys = key.split('.');
