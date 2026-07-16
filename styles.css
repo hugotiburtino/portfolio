@@ -404,6 +404,13 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
+    min-width: 0;
+}
+
+.about-text {
+    min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .about-description {
@@ -411,6 +418,13 @@ body {
     margin-bottom: 20px;
     font-size: 1.1rem;
     line-height: 1.8;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    hyphens: auto;
+    max-width: 100%;
+    width: 100%;
+    white-space: normal;
 }
 
 .about-stats {

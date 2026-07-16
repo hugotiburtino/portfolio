@@ -35,17 +35,14 @@ const translations = {
         },
         projects: {
             title: "Featured Projects",
-            serlo: {
-                description: "Terraform code for managing Serlo's cloud infrastructure with automated deployment and scaling capabilities."
-            },
-            jankenpon: {
-                description: "Rock Paper Scissors game implemented using Object-Oriented Programming principles in Python."
+            'serlo-infra': {
+                description: "Reorganized the code, simplified the infrastructure, saved costs."
             },
             kanban: {
-                description: "Contributed to building a modern Kanban board editor for project management with drag-and-drop functionality."
+                description: "Contributed to making a real-time Kanban Board based on Nostr Protocol."
             },
-            onboarding: {
-                description: "Developed an onboarding tool to streamline the process of integrating new team members into projects."
+            'serlo-api': {
+                description: "Maintained and developed the Graphl API of serlo.org"
             },
             viewCode: "View Code",
             viewAll: "View All Projects on GitHub"
@@ -88,17 +85,14 @@ const translations = {
         },
         projects: {
             title: "Projetos em Destaque",
-            serlo: {
-                description: "Código Terraform para gerenciar a infraestrutura em nuvem da Serlo com implantação automatizada e capacidades de escalonamento."
-            },
-            jankenpon: {
-                description: "Jogo Pedra Papel Tesoura implementado usando princípios de Programação Orientada a Objetos em Python."
+            'serlo-infra': {
+                description: "Reorganizou o código, simplificou a infraestrutura, enconomizou os gastos."
             },
             kanban: {
-                description: "Contribuí na construção de um editor moderno de quadro Kanban para gerenciamento de projetos com funcionalidade de arrastar e soltar."
+                description: "Contribuíu para um quadro kanban em tempo real, baseado no protocolo Nostr."
             },
-            onboarding: {
-                description: "Desenvolvi uma ferramenta de integração para simplificar o processo de integração de novos membros da equipe nos projetos."
+            'serlo-api': {
+                description: "Manteve e desenvolveu o Graphl API de serlo.org"
             },
             viewCode: "Ver Código",
             viewAll: "Ver Todos os Projetos no GitHub"
@@ -141,17 +135,14 @@ const translations = {
         },
         projects: {
             title: "Featured Projekte",
-            serlo: {
-                description: "Terraform-Code zur Verwaltung der Cloud-Infrastruktur von Serlo mit automatisierter Bereitstellung und Skalierungsfähigkeiten."
-            },
-            jankenpon: {
-                description: "Schere-Stein-Papier-Spiel implementiert unter Verwendung objektorientierter Programmierungsprinzipien in Python."
+            'serlo-infra': {
+                description: "Hat den Code reorganisiert, die Infrastruktur vereinfacht und Kosten gesenkt."
             },
             kanban: {
-                description: "Beitrag zum Aufbau eines modernen Kanban-Board-Editors für Projektmanagement mit Drag-and-Drop-Funktionalität."
+                description: "Hat zu einem Echtzeit-Kanban-Board auf Basis des Nostr-Protokolls beigetragen."
             },
-            onboarding: {
-                description: "Entwicklung eines Onboarding-Tools zur Optimierung des Prozesses der Integration neuer Teammitglieder in Projekte."
+            'serlo-api': {
+                description: "Hat die GraphQL-API von serlo.org gewartet und weiterentwickelt."
             },
             viewCode: "Code ansehen",
             viewAll: "Alle Projekte auf GitHub ansehen"
@@ -173,7 +164,6 @@ const translations = {
 
 let currentLang = (navigator.language || navigator.userLanguage).split("-")[0];
 
-// Function to get nested translation value
 function getTranslation(key, lang = currentLang) {
     const keys = key.split('.');
     let value = translations[lang];
@@ -189,12 +179,10 @@ function getTranslation(key, lang = currentLang) {
     return value;
 }
 
-// Function to update page language
 function updateLanguage(lang) {
     currentLang = lang;
     localStorage.setItem('language', lang);
     
-    // Update all elements with data-i18n attribute
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
         const translation = getTranslation(key, lang);
