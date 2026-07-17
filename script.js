@@ -41,6 +41,9 @@ const translations = {
             'serlo-api': {
                 description: "Maintained and developed the Graphl API of serlo.org"
             },
+            discoovera: {
+                description: "Maintenance of Infrastructure and leadership of developers"
+            },
             viewCode: "View Code",
             viewAll: "View All Projects on GitHub"
         },
@@ -88,6 +91,9 @@ const translations = {
             'serlo-api': {
                 description: "Manteve e desenvolveu o Graphl API de serlo.org"
             },
+            discoovera: {
+                description: "Manutenção da infraestrutura e liderança dos desenvolvedores"
+            },
             viewCode: "Ver Código",
             viewAll: "Ver Todos os Projetos no GitHub"
         },
@@ -134,6 +140,9 @@ const translations = {
             },
             'serlo-api': {
                 description: "Hat die GraphQL-API von serlo.org gewartet und weiterentwickelt."
+            },
+            discoovera: {
+                description: "Aufrecherhaltung der Infrastruktur and Führung der Entwicklung."
             },
             viewCode: "Code ansehen",
             viewAll: "Alle Projekte auf GitHub ansehen"
