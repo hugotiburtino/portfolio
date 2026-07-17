@@ -36,7 +36,7 @@ const translations = {
                 description: "Reorganized the code, simplified the infrastructure, saved costs."
             },
             kanban: {
-                description: "Contributed to making a real-time Kanban Board based on Nostr Protocol."
+                description: "Contributed to a real-time Kanban Board based on Nostr Protocol."
             },
             'serlo-api': {
                 description: "Maintained and developed the Graphl API of serlo.org"
@@ -83,7 +83,7 @@ const translations = {
                 description: "Reorganizou o código, simplificou a infraestrutura, enconomizou os gastos."
             },
             kanban: {
-                description: "Contribuíu para um quadro kanban em tempo real, baseado no protocolo Nostr."
+                description: "Contribuiu para um quadro kanban em tempo real, baseado no protocolo Nostr."
             },
             'serlo-api': {
                 description: "Manteve e desenvolveu o Graphl API de serlo.org"
