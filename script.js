@@ -20,11 +20,8 @@ const translations = {
         },
         about: {
             title: "About Me",
-            description1: "I'm a passionate Full Stack Developer and DevOps Engineer with a strong focus on building efficient, scalable applications and automating infrastructure. With over 517 contributions in the last year, I'm constantly learning and improving my craft.",
-            description2: "I work with organizations like Serlo and edufeed-org, contributing to various projects including kanban editors, onboarding tools, and infrastructure management using Terraform and modern cloud technologies.",
-            contributions: "Contributions",
-            repositories: "Repositories",
-            organizations: "Organizations"
+            description1: "I'm a passionate Full Stack Developer and DevOps Engineer with a strong focus on building efficient, scalable applications and automating infrastructure. Above all, I contribute to the organization in order to see everybody happy: clients, colleagues and myself 😄",
+            description2: "I contributed to various web app projects working on infrastructure management, automating deployment and adding features."
         },
         skills: {
             title: "Skills & Technologies",
@@ -70,11 +67,8 @@ const translations = {
         },
         about: {
             title: "Sobre Mim",
-            description1: "Sou um Desenvolvedor Full Stack e Engenheiro DevOps apaixonado, com forte foco na construção de aplicações eficientes e escaláveis e automação de infraestrutura. Com mais de 517 contribuições no último ano, estou constantemente aprendendo e aprimorando minhas habilidades.",
-            description2: "Trabalho com organizações como Serlo e edufeed-org, contribuindo para vários projetos incluindo editores kanban, ferramentas de integração e gerenciamento de infraestrutura usando Terraform e tecnologias modernas de nuvem.",
-            contributions: "Contribuições",
-            repositories: "Repositórios",
-            organizations: "Organizações"
+            description1: "Sou um Desenvolvedor Full Stack e Engenheiro DevOps apaixonado, com forte foco na construção de aplicações eficientes e escaláveis e automação de infraestrutura. Acima de tudo, contribuo para a organização com o intuito de ver todo mundo feliz: clientes, colegas e a mim mesmo 😄",
+            description2: "Contribuí para vários projetos de aplicações da web, trabalhando no gerenciamento da infraestrutura, automatizando o deploy e adicionando funcionalidades",
         },
         skills: {
             title: "Habilidades & Tecnologias",
@@ -120,11 +114,8 @@ const translations = {
         },
         about: {
             title: "Über Mich",
-            description1: "Ich bin ein leidenschaftlicher Full Stack Entwickler und DevOps Ingenieur mit starkem Fokus auf den Aufbau effizienter, skalierbarer Anwendungen und die Automatisierung von Infrastruktur. Mit über 517 Beiträgen im letzten Jahr lerne ich ständig und verbessere mein Handwerk.",
-            description2: "Ich arbeite mit Organisationen wie Serlo und edufeed-org zusammen und trage zu verschiedenen Projekten bei, darunter Kanban-Editoren, Onboarding-Tools und Infrastrukturmanagement mit Terraform und modernen Cloud-Technologien.",
-            contributions: "Beiträge",
-            repositories: "Repositories",
-            organizations: "Organisationen"
+            description1: "Ich bin ein leidenschaftlicher Full Stack Entwickler und DevOps Ingenieur mit starkem Fokus auf den Aufbau effizienter, skalierbarer Anwendungen und die Automatisierung von Infrastruktur. Vor allem trage ich zu der Organisation bei, um alle glücklich zu sehen: Klienten, Mitarbeitende und mich selbst 😄.",
+            description2: "Ich habe zu mehreren Web-App-Projekten beigetragen, darunter Infrastrukturmanagement, Automatisierung von Deployment und Feature-Entwicklung.",
         },
         skills: {
             title: "Fähigkeiten & Technologien",
