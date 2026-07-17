@@ -397,6 +397,8 @@ body {
 
 .about {
     background: var(--bg-dark);
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .about-content {
@@ -405,12 +407,21 @@ body {
     gap: 50px;
     align-items: center;
     min-width: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
 .about-text {
     min-width: 0;
     max-width: 100%;
-    overflow: hidden;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.about-image {
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
 }
 
 .about-description {
@@ -419,12 +430,13 @@ body {
     font-size: 1.1rem;
     line-height: 1.8;
     word-wrap: break-word;
-    overflow-wrap: anywhere;
+    overflow-wrap: break-word;
     word-break: break-word;
     hyphens: auto;
     max-width: 100%;
     width: 100%;
     white-space: normal;
+    overflow-x: hidden;
 }
 
 .about-stats {
@@ -836,6 +848,14 @@ body {
     .hero-content,
     .about-content {
         grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .about-text,
+    .about-image {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
     }
     
     .hero-text {
