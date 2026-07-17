@@ -211,6 +211,12 @@ function updateLanguage(lang) {
         }
     });
     
+    // Update language dropdown
+    const langSelect = document.getElementById('lang-select');
+    if (langSelect) {
+        langSelect.value = lang;
+    }
+    
     // Update hero subtitle for typing effect
     const heroSubtitle = document.querySelector('.hero-subtitle');
     if (heroSubtitle) {
@@ -229,6 +235,14 @@ document.addEventListener('DOMContentLoaded', () => {
             updateLanguage(lang);
         });
     });
+    
+    // Add change event listener to language dropdown
+    const langSelect = document.getElementById('lang-select');
+    if (langSelect) {
+        langSelect.addEventListener('change', (e) => {
+            updateLanguage(e.target.value);
+        });
+    }
 });
 
 // ===============================================
